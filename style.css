@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 25%;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table,td,th{
+    border: 1px solid rgb(6, 9, 49);
+    border-collapse: collapse;
+    padding: 2px 10px;
+}
+th{
+    background-color: rgb(6, 9, 49);
+    color: rgb(245, 234, 220);
+    height: 40px;
+
+}
+a{
+    color: rgb(51, 94, 224);
+    text-decoration: none;
+}
+.delete{
+    color:crimson;
+}
+input,textarea,button{
+    margin: 5px 0;
+    border: 1px solid rgb(6, 9, 49);
+    border-radius: 4px;
+    font-size: 18px;
+}
+input,button{
+    height: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+button{
+    background-color: rgb(0, 120, 233);
+    color: whitesmoke;
+}
